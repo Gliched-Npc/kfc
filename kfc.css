@@ -1,0 +1,344 @@
+.Banner{
+    display:flex;
+    flex-direction: column;
+}
+.order-block{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+   align-items: center;
+}
+.Order-button{
+    background-color:rgb(241, 2, 2);
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 40px;
+    margin-left: 10px;
+    width: 160px;
+    height: 45px;              
+}
+.Order-button:hover{
+    cursor: pointer;
+}
+
+.order-line{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.browse-menu-heading{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 74px;
+    
+    
+ 
+}
+.browse-menu-text{              
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+
+  
+}
+hr{
+    margin-left:-250px;
+    width: 770px;
+   
+}
+
+.Browse-menu-block{
+    margin: 0px 80px 0px 280px;
+    
+}
+
+.Browse-menu{
+
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.food-pic{
+    width: 270px;
+    height: 220px;
+    object-fit: contain;
+}
+.view-all{
+    width: 200px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+   object-position: center;
+    object-fit: cover;
+}
+.food-intro{
+    padding-top:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+}      
+.product{
+    
+    text-align: center;
+    padding-bottom: 20px;
+    width: 270px;
+    background-color: rgb(248, 247, 245);
+    margin-bottom: 20px;
+}
+.product:hover{
+    cursor: pointer;
+}
+
+.Offer-container{
+    background-color: rgb(14, 14, 14);
+    margin-top: 90px;
+}
+
+.offer-cotainer-cards{
+    margin-left: 139px;
+    color: white;
+}
+.offer-icon{
+    margin-left: 43.2px;
+    margin-bottom :62.17px;
+}
+
+.offer-container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3.1%;
+    margin-bottom: 40px;
+}
+.offer-headin{
+    
+    letter-spacing: -1px;
+    font-size: 28px;
+    line-height: 43px;
+    font-weight: 700;
+}
+
+.veiw-all{
+    margin-right: 186px;
+}
+
+.product-and-offer-container{
+   width:310px;
+   background-color: white;
+   border-radius: 4px;
+   padding-bottom: 50px;
+   position: relative;
+   margin-left: 50px;
+  
+   
+}
+
+.picture-of-offr{
+    width: 310px;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    object-fit: cover;
+    
+}
+.product-Name{
+    color: rgb(251, 38, 38);
+    white-space: nowrap;
+    letter-spacing: -3px;
+    font-size: 30px;
+    margin:0px;
+    text-align: center;
+}
+
+.Product-Info{
+    text-align: center;
+    color: black;
+    margin: 0px;
+    font-size: 11px;
+    word-spacing: 1px;
+
+}
+.product-redeem{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom:19px;
+    left:30px ;
+    padding-top: 3px;
+    
+    
+}
+.vyu-details{
+  margin-right: 20px;
+  padding: 10px;  
+  font-size: 13px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px; 
+}
+
+.vyu-details:hover{
+    text-decoration-thickness: 1.5px;
+}
+.apply-offer-button{
+    font-size: 13px;
+    border: 1px solid;
+    padding: 10px 21px;
+    border-radius: 40px;
+    transition: .3s;
+}
+.apply-offer-button:hover{
+    background-color: rgb(103, 100, 100);
+    color: white;
+}
+.products-and-offers{
+    overflow-x: hidden;
+    display: flex; 
+    justify-content:space-evenly;
+    margin-left: 80;
+    padding-bottom: 50px;
+    
+}
+.arrow1{
+    font-size:40px;
+    padding: 4px 20px;
+    border: none;
+    background-color: rgba(134, 131, 131, 0.495);
+    text-align: center;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 183px;
+    left: -65px;
+}
+
+.arrow2{
+    font-size:40px;
+    padding: 4px 20px;
+    border: none;
+    background-color: rgba(251, 251, 251, 0.884);
+    text-align: center;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 183px;
+    right: 65px;
+}
+.B1{
+    padding: 1px 50px;
+    border: none;
+   
+    
+    
+}
+.B2{
+    padding: 1px 500px;
+    background-color: rgba(131, 131, 131, 0.911);
+    border: none;
+    margin-left: -10px;
+    
+}
+.B{
+    background-color: rgb(14, 14, 14);
+    margin-left: 165px;
+    padding: 0px 0px 112px 27.025px;
+    
+
+}
+
+h5{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    
+}
+
+.about{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.about:hover{
+    color: white;
+    cursor: pointer;
+}
+#find-kfc{
+    padding-left: 2px;
+    font-size:12px;
+    text-decoration: underline;
+    text-decoration-thickness:1px;
+}
+#find-kfc:hover{
+    text-decoration-thickness:2px;
+}
+
+
+.social-media{
+    margin-left: 10px;
+}
+.social-media:hover{
+    cursor: pointer;
+}
+
+.row1{
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.row2{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 27px;
+}
+.two-middle-section{
+    font-size: 10px;
+}
+
+.thre-ryt-section{
+    list-style: none;
+    display: flex;
+}
+
+.availablity{
+    display: flex;
+    
+}
+
+.gugl-play:hover{
+    cursor: pointer;
+}
+.apple-stor{
+    cursor: pointer;
+}
+
+.find-location{
+    display: flex;
+    
+}
+#kfc{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.kfc-info{
+    display: flex;
+    flex-basis: 580px;
+    justify-content: space-evenly;
+}
+
+
+footer{
+    padding: 85px 85px 5px 85px;
+    background-color: rgb(14, 14, 14);
+    color: rgb(209, 204, 204);
+}

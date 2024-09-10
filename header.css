@@ -1,0 +1,129 @@
+.top-header{
+              
+    border-width: .1px;
+   border-bottom-style:ridge;
+   font-size: 12px;
+   font-weight:520;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items:center;   
+}
+.Set-location-button{
+    border: none;
+    padding:8px;
+    margin-left: 10px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 50px;
+}
+.Set-location-button:hover{
+    cursor: pointer;
+}
+.location-pin{
+    
+    margin-right: 5px;
+    width: 13px;
+   
+}
+
+.secnd-header{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;    
+    background-color: white;
+   
+}
+.left-section{
+vertical-align: middle;
+   display: flex;
+   flex-direction: row;
+    width: 400px;
+    padding: 30px;
+   
+   
+}
+.ryt-section{    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 400px; 
+}
+
+.kfc-logo{
+    margin-left: 100px;
+    width: 68px;
+}
+.kfc-logo:hover{
+    cursor: pointer;
+}
+.header-Menu{
+  
+    margin-left: 55px;
+    font-size: 12px;
+}
+.header-Menu:hover{
+    cursor: pointer;
+}
+.header-Deals{
+    margin-left: 30px;
+    font-size: 12px;
+}
+.header-Deals:hover{
+    cursor: pointer;
+}
+
+.signin-button{
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    align-items: center;
+ 
+}
+.profile-logo{
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-right: 0px;
+}
+.profile-logo:hover{
+    cursor: pointer;
+}
+.sign-in-text{
+    font-size: small;
+    font-weight: 600;
+    margin-left: 0px;
+    padding-right: 19px;
+    padding-left: 25px;
+    border-color: rgb(210, 210, 210);
+    border-width:thin;
+    border-style:ridge;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+}
+.sign-in-text:hover{
+    cursor: pointer;
+}
+.amount{
+    padding-top: 23px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+ 
+}
+.header-amount:hover{
+    cursor: pointer;
+}
+.bucket{
+    width: 50px;
+    margin-top: 22px;
+}
+.header-bucket:hover{
+    cursor: pointer;
+}
+.bukt-count{
+    position: absolute;
+    top: 84px;
+    right: 123px;
+    font-size: 13px;
+
+}
